@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+gem 'jekyll-compose', group: [:jekyll_plugins]
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.0", ">= 6.0.1"
