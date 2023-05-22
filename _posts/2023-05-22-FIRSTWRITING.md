@@ -1,11 +1,9 @@
 ---
-title: FIRTS WRITING TEST
-date: 2023-05-23 14:22:00 +0800
-categories: [SW_DEV, JAVASPRING]
-tags: [springframework]     # TAG names should always be lowercase
+title: Normal Distribution
+date: 2023-05-21 14:22:00 +0900
+categories: [Data Analysis and Python Libs, Basic Statistics]
+tags: [statistics]     # TAG names should always be lowercase
 --- 
-
-
 
 # Welcome
 
