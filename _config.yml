@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: KWON DOHYUNG
+  name: YEONPAPA
   email: kdh906@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -45,7 +45,7 @@ social:
 
 google_site_verification: # fill in to your verification string
 
-# ↑ --------------------------
+# ↑ -------------------------- 
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
