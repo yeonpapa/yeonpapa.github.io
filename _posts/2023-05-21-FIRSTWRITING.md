@@ -2,7 +2,7 @@
 title: 분포의 이해
 date: 2023-05-21 14:22:00 +0900
 categories: [Data Analysis and Python Libs, Basic Statistics]
-tags: [statistics, probability distribution]     # TAG names should always be lowercase
+tags: [statistics]     # TAG names should always be lowercase
 --- 
 
 ###### 확률분포(probability distribution)은 __확률변수__ 가 특정한 값을 가질 __확률__ 을 나타내는 함수를 의미한다. 확률변수가 특정 값을 가질 확률이 얼마나 되느냐를 나타내는 것입니다. 확률분포는 확률변수의 종류에 따라 __이산확률분포__ 와 __연속확률분포__ 로 나뉘는데요. 쉽게 말해 확률변수를 셀 수 있는지 없는지에 따라 나눈다고 생각하시면 됩니다.
