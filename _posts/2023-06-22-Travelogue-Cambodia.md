@@ -16,3 +16,4 @@ tags: [cambodia, campuchia, cambodge]     # TAG names should always be lowercase
 3. 역사,종교,사람들
 4. 경제(산업),화폐
 5. 음식
+6. 교통
