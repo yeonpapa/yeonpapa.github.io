@@ -12,7 +12,7 @@ tags: [cambodia, campuchia, cambodge]     # TAG names should always be lowercase
 0. 국가명칭 
 <br> 프랑스어 캉보주(Cambodge), 산스크리트어 캄보자, 크메르어 깜뿌지어(campuchia), 스록 크마에
 1. 언어
-2. 수도 **프놈펜**, 앙코르의 도시 **시엠립**
+2. 수도 **프놈펜**, 신들의 도시 **시엠립**
 3. 역사,종교,사람들
 4. 경제(산업),화폐
 5. 음식
