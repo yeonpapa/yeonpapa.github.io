@@ -1,7 +1,7 @@
 ---
-title: DevOps Ubuntu에 docker설치하기
+title: Ubuntu에 docker, portainer 설치하기
 date: 2023-07-08 14:00:00:00 +0900
-categories: [SW DevOps, Docker 설치]
+categories: [SW DevOps, Container]
 tags: [swdevops, docker install, ubuntu]     # TAG names should always be lowercase
 --- 
 
