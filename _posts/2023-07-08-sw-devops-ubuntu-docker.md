@@ -22,6 +22,8 @@ tags: [swdevops, docker install, ubuntu]     # TAG names should always be lowerc
   - ```볼륨정보확인: $ docker volume inspect portainer_data```
 - install portainer<br>
 ```$ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.11.0```
+- portainer 접속 : https://ip:9443
+  - create administrator user --> yeonpapa/yXXXXXXXXX
 
 
 
