@@ -32,3 +32,27 @@ tags: [swdevops, linux, ubuntu, ssh]     # TAG names should always be lowercase
    Port 20022 
    ```
    ```$ sudo systemctl restart sshd``` or ```$ sudo service sshd restart```
+
+<br/>
+## 참고
+<br/>
+| 명령어종류 | systemctl | service |
+|-------|:---:|:---:|
+| 서비스 상태확인 | systemctl status **서비스명** | service **서비스명** status |
+| 서비스 시작 | systemctl start **서비스명** | service **서비스명** start |
+| 서비스 정지 |systemctl stop **서비스명** | service **서비스명** stop |
+| 서비스 재시작 |systemctl restart **서비스명** | service **서비스명** restart |
+| 서비스 리로드 |systemctl reload **서비스명** | service **서비스명** reload |
+
+## 참고 -
+1. root계정 활성화
+```
+$ sudo passwd root
+New password:
+Retype new password:
+passwd: password updated successfully
+```
+2. root계정 ssh 로그인 활성화 
+```
+$ vi /etc/ssh/sshd_config '#PermitRootLogin prohibit-password' 값을 'PermitRootLogin yes'으로 변경
+```

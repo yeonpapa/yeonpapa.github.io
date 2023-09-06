@@ -25,6 +25,12 @@ tags: [swdevops, docker install, ubuntu]     # TAG names should always be lowerc
 - portainer 접속 : https://ip:9443
   - create administrator user --> yeonpapa/yXXXXXXXXX
 
+11. Install Portainer 위방법 말고 다른방법으로 재설치함.
+``` 
+sudo mkdir -p /docker/portainer #루트(/)폴더에 docker/portainer 디렉토리생성, portainer컨테이너와 연결하고자 함.
+sudo docker run -d -p 9000:9000 --name portainer --restart always -v /docker/portainer:/data -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer 
+```
+portainer접속: https://ip:9000, id/pass ---> admin/portaineradmin
 
 
 
