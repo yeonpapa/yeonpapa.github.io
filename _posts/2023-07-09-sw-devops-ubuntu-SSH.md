@@ -35,7 +35,7 @@ tags: [swdevops, linux, ubuntu, ssh]     # TAG names should always be lowercase
 
 <br/>
 ## 참고
-<br/>
+
 | 명령어종류 | systemctl | service |
 |-------|:---:|:---:|
 | 서비스 상태확인 | systemctl status **서비스명** | service **서비스명** status |
