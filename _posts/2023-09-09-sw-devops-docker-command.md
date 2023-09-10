@@ -11,7 +11,7 @@ LAYER : 기존 이미지에 추가적인 파일이 필요할 때 다시 처음�
 CONTAINER : 이미지를 실행한 상태.
 
 ## 이미지를 만드는 방법 Commit과 Build
-- commit <br>
+- commit <br/>
 원본이미지 -> run -> 필요한 라이브러리 설치 -> commit -> 새로운 이미지<br/>
 
 - build ( with Dockerfile )
