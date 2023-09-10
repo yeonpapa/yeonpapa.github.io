@@ -21,14 +21,14 @@ $ docker build -t imageName:0.1 . # docker build -t 이미지이름 Dockerfile�
 ```
 
 ## 이미지를 실행하는 방법 Container
-- docker run [옵션] [이미지] [명령] [매개변수] <br/>
+- docker run [-옵션] [이미지] [명령] [매개변수] <br/>
 
 ```shell
 $ docker run -d -it --name containerName imageName bash 
 ```
 #### Options
 
-1. \**-i, --interactive** <br/>
+1. **i, --interactive** <br/>
 표준 입력stdin을 활성화하며, 컨테이너와 연결attach되어 있지 않더라도 표준 입력을 유지합니다.
 보통 이 옵션을 사용하여 Bash 에 명령을 입력합니다.<br/>
 2. **-t, --tty** <br/>
