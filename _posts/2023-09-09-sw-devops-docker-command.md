@@ -28,6 +28,7 @@ $ docker run -d -it --name containerName imageName bash
 ```
 
 #### 옵션
+
 1. **-i, --interactive**<br/>
 표준 입력(stdin)을 활성화하며, 컨테이너와 연결(attach)되어 있지 않더라도 표준 입력을 유지합니다.
 보통 이 옵션을 사용하여 Bash 에 명령을 입력합니다.<br/>
