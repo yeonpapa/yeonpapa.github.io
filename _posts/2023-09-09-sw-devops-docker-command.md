@@ -19,3 +19,10 @@ CONTAINER : 이미지를 실행한 상태.
 ```shell
 $ docker build -t imageName:0.1 . # docker build -t 이미지이름 Dockerfile위치
 ```
+
+## 이미지를 실행하는 방법 Container
+- docker run <옵션:-i> <이미지> <명령> <매개변수> <br/>
+
+```shell
+$ docker run -d -it --name containername imagename bash 
+```
