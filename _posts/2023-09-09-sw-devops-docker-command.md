@@ -27,7 +27,7 @@ $ docker build -t imageName:0.1 . # docker build -t 이미지이름 Dockerfile�
 $ docker run -d -it --name containerName imageName bash 
 ```
 #### Options
-1. **-i, --interactive** <br/>
+1. **\-i, --interactive** <br/>
 표준 입력stdin을 활성화하며, 컨테이너와 연결attach되어 있지 않더라도 표준 입력을 유지합니다.
 보통 이 옵션을 사용하여 Bash 에 명령을 입력합니다.<br/>
 2. **-t, --tty** <br/>
