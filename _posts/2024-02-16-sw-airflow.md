@@ -1,6 +1,6 @@
 ---
 title: Airflow - airflow test
-date: 2023-06-04 14:00:00 +0900
+date: 2024-02-16 14:00:00 +0900
 categories: [Data Analysis and Python Libs, Data Engineering]
 tags: [airflow, workflow, dag, task]     # TAG names should always be lowercase
 --- 
