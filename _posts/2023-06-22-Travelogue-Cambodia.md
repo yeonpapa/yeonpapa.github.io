@@ -14,7 +14,7 @@ tags: [cambodia, campuchia, cambodge]     # TAG names should always be lowercase
 <br> 영어 - '**캄보디아(Cambodia)**' , 프랑스어 - '**캉보주(Cambodge)**'
 <br> 건국 - 1953년 11월9일(프랑스로부터 독립), 정부형태 - 입헌군주제, 지리-국토면적 남한의 1.8배
 <figure style="margin-left: auto; margin-right: auto; display: block;">
-    <img src="/assets/img/cambodiamap.jpg" >
+    <img src="/assets/img/cambodiamap.jpg" alt="cambodia map">
     <figcaption>캄보디아지도</figcaption>
 </figure>
 

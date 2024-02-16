@@ -2,7 +2,7 @@
 title: Airflow - airflow test
 date: 2024-02-16 14:00:00 +0900
 categories: [Data Analysis and Python Libs, Data Engineering]
-tags: [airflow, workflow, dag, task]     # TAG names should always be lowercase
+tags: [airflow, workflow, dag]     # TAG names should always be lowercase
 --- 
 
 1. 조회<br>
