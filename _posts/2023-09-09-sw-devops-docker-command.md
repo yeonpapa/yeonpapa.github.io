@@ -28,7 +28,7 @@ $ docker run -d -it --name containerName imageName bash
 ```
 #### Options
 <figure style="margin-left: auto; margin-right: auto; display: block;">
-    <img src="/assets/img/dockerrunoption1.png"> <figcaption>docker 옵션1</figcaption>
-    <img src="/assets/img/dockerrunoption2.png"><figcaption>docker 옵션2</figcaption>
+    <img src="/assets/img/dockerrunoption1.png" alt="dockerrunoption1"> <figcaption>docker 옵션1</figcaption>
+    <img src="/assets/img/dockerrunoption2.png" alt="dockerrunoption2"><figcaption>docker 옵션2</figcaption>
 </figure>
 <br>
