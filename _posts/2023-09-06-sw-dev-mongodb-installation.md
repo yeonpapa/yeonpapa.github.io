@@ -98,7 +98,7 @@ services:
           - ME_CONFIG_MONGODB_SERVER=mongodb
           - ME_CONFIG_MONGODB_PORT=27017
           - ME_CONFIG_BASICAUTH_USERNAME=mongoadmin
-          - me_CONFIG_BASICAUTH_PASSWORD=digital21
+          - ME_CONFIG_BASICAUTH_PASSWORD=digital21
         depends_on:
           - mongodb
 ```
