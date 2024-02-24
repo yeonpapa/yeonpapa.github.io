@@ -1,7 +1,7 @@
 ---
-title: 분포의 이해
+title: (Basic Statistics) 분포의 이해
 date: 2023-05-21 14:22:00 +0900
-categories: [Data Analysis and Python Libs, Basic Statistics]
+categories: [Data Analysis and Python Libs, Data Analysis]
 tags: [statistics, probability, pdf, pmf]     # TAG names should always be lowercase
 --- 
 

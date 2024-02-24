@@ -1,7 +1,7 @@
 ---
-title: SW Framework 
+title: SW Framework 종류
 date: 2023-06-28 09:30:00:00 +0900
-categories: [SW Development, Dev-Framework]
+categories: [SW Development, Programming Language]
 tags: [swdev, webframework, backend,frontend]     # TAG names should always be lowercase
 --- 
 
