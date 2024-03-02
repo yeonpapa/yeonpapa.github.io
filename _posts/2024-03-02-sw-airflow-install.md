@@ -20,7 +20,7 @@ $ docker compose --profile flower up
 
 3. yml 내용 <br>
 
-``` shell
+``` yaml
 version: '3.8'
 x-airflow-common:
   &airflow-common
