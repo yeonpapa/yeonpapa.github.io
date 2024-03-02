@@ -15,6 +15,7 @@ $ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose
 2. 실행 <br>
 ``` bash
 $ docker compose --profile flower up
+$ docker compose up
 ```
 <br>
 
