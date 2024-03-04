@@ -42,8 +42,9 @@ list_arr = [i for i in range(1000000)] # 이와같이사용하는 게 list compr
 ```
 - sort와 sorted
 - len, sum, max, min
-- slicing
-- reduce, filter
+- slicing : 연속적인 객체들에(예: 리스트, 튜플, 문자열) 범위를 지정해 선택해서 객체들을 가져오는 방법 및 표기법을 의미. 
+            슬라이싱을 하면 새로운 객체를 생성. 즉, 일부분을 복사해서 가져옴. <br> 
+            기본사용: a[start : end : step] --> start (시작인덱스), end (끝나는인덱스),step(보폭)
 
 6. Container - Tuple <br>
 List보다 초기화가 간결
