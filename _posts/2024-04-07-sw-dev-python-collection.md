@@ -58,3 +58,28 @@ a, b = b, a  # a, b값이 서로의 값을 교환함 a=7, b=3, swap을 바로 �
 Dictionary와 표기가 같다. 순서가 없다. 따라서 **인덱스가 없고 인덱싱 불가능. 중복 허용 안됨.**
 - set(), add(), update(), remove(), clear() in(), len(),discard(), pop()
 - instersection(), union(), difference(), issubset()
+
+9. deque : []<br>
+d = deque(), d = deque([1,2,3,4,5])<br>
+deque는 list보다 속도가 빠르다. pop(0)와 같은 메서드를 수행할 때 리스트라면 O(N) 연산을 수행하지만,<br> 
+deque는 O(1) 연산을 수행하기 때문이다.<br>
+- append(), pop(), appendleft(), popleft(), lotate()
+``` python
+>>> from collections import deque
+>>> d = deque([1,2,3,4,5])
+>>> d.append(6)
+>>> d
+deque([1, 2, 3, 4, 5, 6])
+>>> d.appendleft(0)
+>>> d
+deque([0, 1, 2, 3, 4, 5, 6])
+>>> d.pop()
+6
+>>> d
+deque([0, 1, 2, 3, 4, 5])
+>>> d.popleft()
+0
+>>> d
+deque([1, 2, 3, 4, 5])
+>>>
+```
