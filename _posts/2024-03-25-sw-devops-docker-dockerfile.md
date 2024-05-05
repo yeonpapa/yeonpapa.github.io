@@ -27,11 +27,17 @@ version: '3'  # docker-compose file format의 버전
 services:
   streamlit_app:
     build: .     #현재 디렉토리에서 Dockerfile을 찾아서 빌드
-    image: test/test:1.1 # 빌드이미지 이름을 지정함. 
+    image: test/test:1.1 # 빌드이미지 이름을 지정함. docker build -t imageName:0.1 . 이렇게 command라인에서 이름을 지정하거나 docker-compose.yml 에서 지정함. Dockerfile에서는 이름을 지정할 수 없음.
     container_name : test # container의 이름을 지정함.
     volumes:
       - .:/app
     ports:
       - 8501:8501
+```
+## docker-compose 실행명령어
+``` shell
+> docker-compose build --no-cache # 이미지를 완전히 새로 빌드
+> docker-compose up -d --build  #docker를 새로빌드하면서 컨테이너를 서비스(-d)로 실행.
+> docker-compose -f yaml파일path -p container_name up 
 ```
 
