@@ -29,7 +29,7 @@ $ docker search centos # docker hub에서 공식이미지 찾기, 공식이미�
 $ docker pull centos:latest # 이미지 가져오기
 $ docker images # host에서 도커이미지 목록 출력
 $ docker ps -a #host내의 컨테이너 목록 출력
-$ docker start <containerID> #컨테이너 시작
+$ docker start/stop <containerID> #컨테이너 시작/정지
 $ docker attach <containerID> #컨테이너 접속 or docker exec -it <컨테이너 ID 또는 이름> /bin/bash
 $ docker commit [옵션] <컨테이너ID 또는 이름> <새로운_이미지_이름> 
 # -a, --author: 커밋한 사용자 또는 작성자 정보를 지정합니다.
