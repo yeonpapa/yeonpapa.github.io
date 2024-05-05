@@ -78,20 +78,20 @@ print(arr6[:, barr3]) # 열(column)에 1차원 boolean형의 1차원 ndarray를 
 ## array 연산
 arr1 = np.array([[1,2,3],[4,5,6]])
 arr2 = np.array([[7,3,1],[8,2,3]])
-print(arr1)
-print(arr2)
-print(arr1 + arr2)
-print(arr1 * 3)
-print(arr1 > arr2) #비교는 boolean으로 리턴
-print(arr2 > 5)
-print(arr1[arr1 >= 3])
+print(arr1) # [[1 2 3] [4 5 6]]
+print(arr2) # [[7 3 1] [8 2 3]]
+print(arr1 + arr2) # [[ 8  5  4] [12  7  9]]
+print(arr1 * 3) # [[ 3  6  9] [12 15 18]]
+print(arr1 > arr2) # [[False False  True] [False  True  True]] 비교는 boolean으로 리턴 
+print(arr2 > 5) # [[True False  False] [True  False  False]]
+print(arr1[arr1 >= 3]) # [3 4 5 6]
 print('##-------------------------------------------------')
+
 # np.where() 는 첫번째 조건의 결과로 조건에 해당하는 index를 리턴함.
 # 조건에 맞는 인덱스에는 2번째 인자의 값을 넣고, 아닌 곳에는 세번째 인자에서 지정한 값을 넣는다.
-np.where(arr1 > 3, arr1, 0) # 조건문 arr1에서 3보다 큰거는 그대로, 같거나 작으면 0으로 채운다., 전체 배열에서 각각의 항목을 비교해서 3보다 크면 그대로, 아니면 0으로 
-np.where(arr2 > 5, arr2 * 2, arr1) # arr2가 10보다 크면 2배, 그렇지 않으면 arr1의 해당 위치 값으로 설정
-c = np.arange(5, 15) # array([ 5,  6,  7,  8,  9, 10, 11, 12, 13, 14])
-print(c)
+print(np.where(arr1 > 3, arr1, 0))  #[[0 0 0] [4 5 6]] 
+print(np.where(arr2 > 5, arr2 * 2, arr1)) # [[14  2  3] [16  5  6]] , arr2가 5보다 크면 2배, 그렇지 않으면 arr1의 해당 위치 값으로 설정
+c = np.arange(5, 15) # print(c) - array([ 5,  6,  7,  8,  9, 10, 11, 12, 13, 14])
 print(np.where(c % 3 == 0)) # 1, 4, 7번 위치가 6, 9, 12로 만족 -> (array([1, 4, 7]),) 값이 아닌 인덱스값을 리턴
 print(np.where(c > 10)) # 6 ~ 9번 위치가 만족 -> (array([6, 7, 8, 9]),) 값이 아닌 인덱스값을 리턴.
 d = np.array([[15, 8, 12], [11, 7, 3]])
