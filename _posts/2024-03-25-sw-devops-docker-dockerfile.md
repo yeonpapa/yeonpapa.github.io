@@ -15,7 +15,7 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 COPY . /app
 EXPOSE 8501
-CMD ["streamlit", "run", "echart_demo.py"]
+CMD ["streamlit", "run", "echart_demo.py","--server.port 8502"] # 명령어에 맞는 옵션을 줄수 있다.
 ```
 
 ## docker-compose
@@ -27,6 +27,8 @@ version: '3'  # docker-compose file format의 버전
 services:
   streamlit_app:
     build: .     #현재 디렉토리에서 Dockerfile을 찾아서 빌드
+    image: test/test:1.1 # 빌드이미지 이름을 지정함. 
+    container_name : test # container의 이름을 지정함.
     volumes:
       - .:/app
     ports:
