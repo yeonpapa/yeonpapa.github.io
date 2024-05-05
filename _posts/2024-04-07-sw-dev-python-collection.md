@@ -81,5 +81,8 @@ deque([0, 1, 2, 3, 4, 5])
 0
 >>> d
 deque([1, 2, 3, 4, 5])
->>>
+>>> if d :
+       print("not empty")
+    else:
+       print("empty")
 ```
