@@ -42,12 +42,27 @@ services:
 ```
 
 ## docker compose 예시
+``` shell
+# 환경변수 파일
+$ cat .env 
+TAG=v1.5
+
+# compose 파일
+$ cat docker-compose.yml
+version: '3'
+services:
+  web:
+    image: "webapp:${TAG}"$
+```
+<br>
+
 ``` yml
 version: "3.8"
 services:
-    //1. 빌더 컨테이너
+    #1. 빌더 컨테이너
     builder:
-        //build를 통해 도커파일 경로(context),지정(dockerfile). 도커파일에서 사용하는 환경변수(.env파일)를 파라미터(args)로 지정
+        # build를 통해 도커파일 경로(context),지정(dockerfile). 
+        # 도커파일에서 사용하는 환경변수(.env파일)를 파라미터(args)로 지정
         build:
             context: .
             dockerfile: builder.Dockerfile
