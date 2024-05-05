@@ -28,6 +28,8 @@ docker compose 버전 2에서는 --link 옵션으로 사용하였으나, 지금�
 ## 다중 호스트 네트워크(overlay)
 dockerswarm이나 kubernetis환경, 즉 multi hosting환경에서의 네트워크 설정에 사용됨.
 
+<br>
+
 ``` yml
 # docker compose network 예제
 services:
@@ -77,4 +79,3 @@ volumes:
 > docker run -dit --network=test-network <container-name> # 컨테이너 실행시 network연결
 > docker network connect test-network <container-name> #이미 실행중인 container-name을 test-network에 연결
 ```
-
