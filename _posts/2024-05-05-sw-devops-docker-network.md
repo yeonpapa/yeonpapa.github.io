@@ -20,7 +20,8 @@ docker compose 버전 2에서는 --link 옵션으로 사용하였으나, 지금�
 
 ## 단일 호스트 네트워크(bridge(default),bridge(custom) host, none)
 - default bridge 네트워크(docker0) : 기본적으로 컨테이너를 생성하면 docker0 네트워크에 물린다. 그래서 기본적으로 통신이 ip형태로 가능
-- custom bridge 네트워크 : 사용자가 네트워크를 생성함. 같은 이름의 네트워크에 컨테이너가 생성되면 컨테이너 이름으로 통신이 가능 ping <container_name>하면 ping이 먹는다. ```docker network create --driver=bridge my-bridge```
+- custom bridge 네트워크 : 사용자가 네트워크를 생성함. 같은 이름의 네트워크에 컨테이너가 생성되면 컨테이너 이름으로 통신이 가능 ping <container_name>하면 ping이 먹는다. 
+```docker network create --driver=bridge my-bridge```
 
 - host : host 네트워크는 도커가 제공해주는 가상 네트워크 인터페이스(veth) 을 상요하는 것이 아니라 이름 그대로 host 의 네트워크에 붙어서 사용하는 개념. ```docker run -d --network=host httpd```
 
