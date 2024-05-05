@@ -26,6 +26,8 @@ docker compose 버전 2에서는 --link 옵션으로 사용하였으나, 지금�
 - none: none 네트워크 는 해당 컨테이너가 네트워크 기능이 필요 없을 때, 혹은 커스텀 네트워크를 사용해야 되는 경우가 있을 때 네트워크 드라이버를 none 으로 설정하고 사용할 수 있습니다 , 즉 외부 네트워크와의 연결이 단절.```docker run -d --network=none nginx:latest```
 
 ## 다중 호스트 네트워크(overlay)
+dockerswarm이나 kubernetis환경, 즉 multi hosting환경에서의 네트워크 설정에 사용됨.
+
 ``` yml
 # docker compose network 예제
 services:
