@@ -11,9 +11,10 @@ tags: [swdevops, docker, network]     # TAG names should always be lowercase
 도커 네트워크를 통해 이러한 컨테이너간 통신을 쉽게 설정하고 관리할 수 있도록 도와 준다.
 정리하자면, 같은 호스트 내에서 실행중인 컨테이너 간 연결할 수 있도록 돕는 논리적 네트워크 개념.
 docker compose 버전 2에서는 --link 옵션으로 사용하였으나, 지금은 -- networks로 바뀜
+
 <figure style="margin-left: auto; margin-right: auto; display: block;">
-    <img src="/assets/img/dockernetwork2.PNG" alt="overlay"><figcaption>docker_network</figcaption>
-    <img src="/assets/img/dockernetwork1.png" alt="docker_Network"> <figcaption>단일 - 도커네트워크</figcaption>
+    <img src="/assets/img/dockernetwork2.png" alt="overlay"><figcaption>docker_network</figcaption>
+    <img src="/assets/img/dockernetwork1.PNG" alt="docker_Network"><figcaption>단일 - 도커네트워크</figcaption>
     <img src="/assets/img/dockernetwork_overlay.PNG" alt="overlay"><figcaption>다중 - Overlay네트워크</figcaption>
 </figure>
 
