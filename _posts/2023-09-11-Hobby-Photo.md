@@ -51,6 +51,7 @@ APS-C 카메라보다 풀프레임 카메라의 흐림 효과가 더 강한 이�
 <figure style="margin-left: auto; margin-right: auto; display: block;">
     <img src="/assets/img/Camera-sensor-sizes-2018-PhotoSeek.jpg" alt="company"> <figcaption>이미지센서크기</figcaption>
     <img src="/assets/img/overviewsensorsize.PNG" alt="company"> <figcaption>이미지센서크기2</figcaption>
+    <img src="/assets/img/imagesize.PNG" alt="company"> <figcaption>이미지센서크기3</figcaption>
     <img src="/assets/img/fullframevscrop.PNG" alt="company"> <figcaption>crop효과</figcaption>
     <img src="/assets/img/crop.PNG" alt="company"> <figcaption>crop효과2</figcaption>
 </figure>
