@@ -9,6 +9,7 @@ tags: [swdev, python, data-structure, algorithm]     # TAG names should always b
 1. Stack
 2. Queue
 3. Graph
+4. Tree
 
 ### 알고리즘
 1. Sort
